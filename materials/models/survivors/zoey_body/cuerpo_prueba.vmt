@@ -1,0 +1,31 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+
+
+
+	"$basetexture" "models\survivors\zoey_body\torso2"
+	"$bumpmap" "models\survivors\zoey_body\torso bump2"
+		"$surfaceprop" "Flesh"
+$ambientocclusion 1
+        $halflambert 1
+	"$nodecal" "1"
+	"$model" "1"
+
+	
+"$nocull" 1
+
+$phong 1
+$phongboost 0.04
+$phongexponent 5
+$phongtint "[0.1 .5 .5]"
+"$phongfresnelranges" "[2 2 5]"  
+
+"$phongexponenttexture" "models\survivors\zoey_body\torso spec2"
+"$lightwarptexture" 	"models\survivors\zoey_body\lightwarp_flesh"
+
+
+}
+}
