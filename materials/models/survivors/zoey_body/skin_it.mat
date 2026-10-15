@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+	
+	$BaseTexture 	"null"
+	$BumpMap 		"null"
+
+	$Phong "1"
+	$HalfLambert "1"
+
+	$PhongFresnelRanges "[1 1 3]"
+	$PhongExponentTexture "models/ModelC/Shared/Skin_Exp_Generic"
+	$PhongBoost "1"
+	$PhongAlbedoTint "1"	
+	$nodecal "1"
+	//$bumpmap2 "models\survivors\titAngst/skin_n"
+	//$ambientocclusion 1
+	
+	$detail "models\survivors\survivor_it.vtf"
+	$detailscale 3
+	$detailblendfactor ".001" 
+	$detailblendmode 0
+	$ITAmount 0
+	Proxies
+	{
+	IT
+	{
+	resultVar $ITAmount
+	}
+	Equals
+	{
+	srcVar1 $ITAmount
+	resultVar $detailblendfactor
+	}
+	}
+}

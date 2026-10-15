@@ -1,0 +1,24 @@
+//"VertexLitGeneric"
+"patch"
+{
+	// all the it proxy stuff is included from here
+	"include" "materials/models/survivors/survivors_it_shared.vmt"
+	
+	"insert"
+	{	
+	"$baseTexture" "models\survivors\zoey_body\teengirl_arms"
+	"$bumpmap" "models\survivors\zoey_body\teengirl_arms_n"
+	//Newer Based on Zoey
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongboost" "0.6"
+	"$phongexponent" "5"
+	"$phongtint" "[1 .85 .85]"
+	"$phongfresnelranges" "[.5 .85 30]"
+	"$nodecal" "1"
+	"$ambientocclusion" "1"
+
+
+	}
+	
+}

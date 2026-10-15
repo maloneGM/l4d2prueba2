@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "null"
+	$bumpmap "null"
+
+	$phong 1
+	$phongfresnelranges "[0.72 0.86 1]"
+	$phongalbedotint 1
+	$phongboost 16
+}

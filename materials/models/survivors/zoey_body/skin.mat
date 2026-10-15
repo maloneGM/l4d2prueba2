@@ -1,0 +1,33 @@
+VertexLitGeneric
+{
+	
+	$BaseTexture 	"null"
+	//$BumpMap 		"null"
+
+	$Phong "1"
+	$HalfLambert "1"
+	
+	//$PhongExponentTexture "models/ModelC/Shared/Skin_Exp_Generic"
+	$PhongAlbedoTint "1"	
+	$nodecal "1"
+	
+	$detail "models/ModelC/Shared/detail_skin"
+	$detailblendfactor 0.5
+	$detailscale 6
+	"$lightwarptexture" 			"models/ModelC/Shared/Body_warp"
+	
+	"$phongboost" 			"0.2"
+
+	//$phongexponent 1
+	$phongtint "[.85 .85 1]"
+	"$phongfresnelranges"	"[1.2 .1 2]"
+	$ambientocclusion 1
+	
+	
+	
+	
+
+
+
+	
+}
