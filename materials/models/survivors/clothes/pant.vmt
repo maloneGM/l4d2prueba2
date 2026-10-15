@@ -1,0 +1,30 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+
+
+$baseTexture "models/survivors/clothes/skirt_zoey"
+$bumpmap "models/survivors/clothes/zoey_cloth_texture_n"
+
+$halflambert 1
+
+
+
+$phong 1
+
+
+$phongboost 0.15
+$phongexponent 10
+$phongtint "[1 1 1]"
+$phongfresnelranges "[0.1 0.2 0.4]"
+$nodecal 1
+$nocull 1
+$ambientocclusion 1
+
+ 	
+
+	
+}
+}

@@ -1,0 +1,36 @@
+patch
+{
+  include "materials/models/survivors/survivors_it_shared.vmt"
+  insert
+  {
+
+
+
+
+
+  "$basetexture" "models\survivors\clothes\Skirt_zoey"
+  "$bumpmap" "models\survivors\clothes\zoey_sueter_n2"
+  //MaterialAdjustment
+  
+
+
+  "$nodecal"    "1"
+  "$nocull" "1" 
+
+
+  "$rimlight" "1"
+  "$rimlightboost" "0.35"
+  //"$rimmask" "1"
+
+  //IMPORTANT:
+
+  "$phong" "0.3"            
+  "$phongboost" "10"    
+  "$phongexponenttexture" "models\survivors\tucasa\Shared\Green_B"  ///UV88, 0.8
+  "$phongfresnelranges" "[0.05 0.35 1.25]"          
+  //"$PhongAlbedoTint" "1"
+
+
+        
+}
+}

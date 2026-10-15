@@ -1,0 +1,36 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+
+
+
+
+
+	"$basetexture" "models\survivors\clothes\zoey_sueter"
+	"$bumpmap" "models\survivors\clothes\zoey_sueter_n2"
+	//MaterialAdjustment
+
+	"$nodecal" 		"1"
+	"$halflambert" "1"
+	"$ambientocclusion" 		"1"
+	"$nocull" "1"	
+
+
+	"$Phong" "0"
+    "$PhongBoost" "0.1" // Suaviza los reflejos para telas no brillantes
+    "$PhongExponent" "12" // Da un acabado sutil y uniforme
+	"$phongtint" "[1 .95 .95]" // Ligero tinte para que no sea un blanco puro
+	"$phongfresnelranges" "[.5 .85 30]"
+
+	
+
+	"$rimlight" "1"
+	"$RimLightExponent" "4"
+	"$rimlightboost" "0.2"
+
+
+
+}
+}
