@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture"	"models\survivors\hair\eyelashes"
+	"$bumpmap" 	"models\survivors\hair\zoey_hair_N"
+
+	"$nocull" 		"1"
+	"$alphatest" 	"1"
+	"$ambientocclusion" "0"
+}
