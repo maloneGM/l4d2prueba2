@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\survivors\TeenAngst/NP0068_00_Hair_C"
+	"$bumpmap" "models\survivors\TeenAngst/NP0068_00_Hair_N"
+	"$alphatest" 1
+	"$alphatestreference" "0.7"
+	"$nocull" 1
+	"$nodecal" 1
+	"$color2" "[.35 .35 .35]"
+}

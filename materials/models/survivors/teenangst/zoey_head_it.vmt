@@ -1,0 +1,30 @@
+"patch"
+{
+	// all the it proxy stuff is included from here
+	"include" "materials/models/survivors/survivors_it_shared.vmt"
+	
+	"insert"
+	{
+		"$baseTexture" "models\survivors\TeenAngst/zoey_head"
+		"$bumpmap" "models\survivors\TeenAngst/zoey_head_normal"
+		"$compress" "models\survivors\TeenAngst/zoey_head_compress"
+		"$stretch" "models\survivors\TeenAngst/zoey_head_compress"
+        $halflambert 1
+
+        $nodecal 1
+        $phong 1
+        $phongboost "0.6"
+        $phongexponent 15
+        $phongalbedotint 1
+        $phongtint "[1 0.6 0.4]"
+        $phongfresnelranges "[0.2 0.5 1.5]"
+
+        $rimlight 1
+        $rimlightexponent 4
+        $rimlightboost 0.5
+
+        $ambientocclusion 1
+        $nocull 1
+    }
+}
+

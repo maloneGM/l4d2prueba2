@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\survivors\teenangst\shades\zoey_Eyelashes_D"
+	//$bumpmap "models\survivors\teenangst\shades\zoey_Eyelashes_n"
+	//$color2 "[10 .6 1]"
+
+	"$ambientocclusion" "0"
+	//"$alphatest" "1"
+	//$allowdiffusemodulation 0
+	//$allowalphatocoverage 1
+	//"$alphatestreference"	"0.50"
+	"$translucent" "1"
+	"$nocull" "1"
+	$nodecal 1
+
+	"$phong" "1"
+	$phongexponent 8
+	"$phongboost"	"0.5"
+	"$phongalbedotint" 1
+	$phongfresnelranges "[.1 1 1]"
+
+	"$lightwarptexture" "models\survivors\teenangst\shades/zoey_Hair_PW"
+
+	"$envmaptint" "[0.78 0.59 0.56]" 
+	//"$phongwarptexture" "models\survivors\teenangst\shades/zoey_Hair_PW"
+	//$halflambert 1
+}

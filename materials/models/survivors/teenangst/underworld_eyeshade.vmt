@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\survivors\teenangst\shades\zoey_eyeshade.vtf"
+
+	//$no_draw 1
+	$translucent	1
+	//$alphatest	1
+	//$AlphaTestReference ".6"
+	//$allowalphatocoverage 1
+	$nocull 1
+	$nodecal 1
+	"$ambientocclusion" "0"
+	"$lightwarptexture" "models\survivors\teenangst\SniperWolf/SniperWolf_Eyeshade_PW"
+}

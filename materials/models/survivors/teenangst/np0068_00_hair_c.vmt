@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\survivors\TeenAngst/NP0068_00_Hair_C"
+	"$bumpmap" "models\survivors\TeenAngst/NP0068_00_Hair_N"
+	
+	"$nocull" 1
+	"$nodecal" 1
+	"$translucent" 1
+//	"$no_draw" "1"
+
+	"$ambientocclusion" "0"
+	
+	"$phong" "0"
+	"$phongboost"	".15"
+	"$phongexponent" "15"
+	"$color2" "[.35 .35 .35]"
+	"$phongexponenttexture" "models\survivors\TeenAngst/sss_green"
+//	"$phongalbedotint" ".5"
+	"$phongtint" "[.95 .95 1]"
+	"$phongwarptexture" "models\survivors\TeenAngst/phongwarp_hair"
+	"$phongdisablehalflambert" "1"
+	"$phongfresnelranges"	"[1 1 1]"	
+}
